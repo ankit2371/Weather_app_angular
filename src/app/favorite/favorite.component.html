@@ -1,0 +1,9 @@
+<app-header></app-header>
+
+<div class="card" style="width: 18rem;" *ngFor="let temp of fav_temp" >
+    <ul class="list-group list-group-flush">
+      <li  class="list-group-item">{{ temp.latitude }}</li>
+      <li  class="list-group-item">{{ temp.longitude }}</li>
+      <li  class="list-group-item">{{ temp.cityname }}</li>
+    </ul>
+</div>
